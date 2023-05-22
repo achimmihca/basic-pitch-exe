@@ -9,7 +9,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     # Copy saved_models to output folder
-    datas=[('saved_models', 'basic_pitch/saved_models')],
+    datas=[('saved_models', 'saved_models')],
     hiddenimports=[],
     hookspath=['./extra-hooks'],
     hooksconfig={},
